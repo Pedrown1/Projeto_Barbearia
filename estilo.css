@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/Background_principal.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: top;
+    margin: 32px;
+}
+
+.logo_header{
+    width: 6.5em;
+    display: flex;
+    cursor: pointer;
+}
+
+.sociais{
+    display: flex;
+    font-size: 1.4em;
+    text-decoration: none;
+    gap: 1.0em;
+    margin-right: 4em;
+    
+}
+
+.sociais a{
+    color: #fff;
+    
+}
+
+.sociais a:hover{
+    border: 2px solid rgb(138, 43, 226);
+    border-radius: 50px;
+    transition: 1.0s;
+    padding: 5px;
+}
+
+.sociais a:active{
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+.sociais a:hover{
+    color: rgb(138, 43, 226);
+    transition: 0.5s ;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.titulo a{
+    color: #fff;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.menus{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1em;
+}
+
+.menu_btn{
+    font-size: 2em;
+    margin: 5px;
+    padding: 7px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid rgb(138, 43, 226);
+    border-radius: 25px;
+    width: 25%;
+    transition: 0.5s;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.menu_btn:hover{
+    background-color: blueviolet;
+}
+
+#footer{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+footer .subtitulo{
+    text-transform: uppercase;
+
+}
+
+
+
